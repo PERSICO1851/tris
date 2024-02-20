@@ -1,0 +1,69 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    filter: drop-shadow(1px 1px 1px black);
+}
+hr {
+    width: 500px;
+    height: 3px;
+    background-color: rgb(255, 0, 0);
+}
+#board{
+    width: 450px;
+    height: 450px;
+    background-color: yellow;
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.title{
+    width: 150px;
+    height: 147px;
+
+    font-size: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.horizontal-line{
+    border-bottom: 3px solid black;
+}
+button{
+    justify-content: center;
+    display: flex;
+    width: 150px;
+    height: 150px;
+    transition: all 0.3s ease;
+}
+button:hover{
+    background-color: gray;
+}
+#board button {
+    width: 150px; /* Imposta la larghezza desiderata del pulsante */
+    height: 150px; /* Imposta l'altezza desiderata del pulsante */
+    text-align: center; /* Centra orizzontalmente il testo */
+    line-height: 50px; /* Centra verticalmente il testo */
+    font-size: 50px;
+    justify-content: center;
+}
+#clearButton{
+    background-color: rgb(255, 0, 0);
+    width: 200px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+#turnong{
+    font-size: large;
+
+}
+#clearRoundButton{
+    background-color: rgb(234, 255, 0);
+    width: 200px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
